@@ -1,3 +1,4 @@
+# change config in .env file
 # to use curl command 
 take ceart by
 ```bash
