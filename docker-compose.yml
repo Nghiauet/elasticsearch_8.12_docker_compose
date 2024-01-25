@@ -74,6 +74,7 @@ services:
       - ${ES_PORT}:9200
     environment:
       - node.name=es01
+      - node.roles=data
       - cluster.name=${CLUSTER_NAME}
       - cluster.initial_master_nodes=es01,es02
       - discovery.seed_hosts=es02
